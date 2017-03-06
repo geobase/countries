@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<api batchcomplete="">
+    <continue sroffset="10" continue="-||"/>
+    <query>
+        <searchinfo totalhits="100921"/>
+        <search>
+            <p ns="0" title="Washington (state)"/>
+            <p ns="0" title="United States presidential election in Washington (state), 2008"/>
+            <p ns="0" title="United States presidential election in Washington (state), 1996"/>
+            <p ns="0" title="United States presidential election in Washington (state), 2012"/>
+            <p ns="0" title="United States"/>
+            <p ns="0" title="United States presidential election in Washington (state), 1992"/>
+            <p ns="0" title="United States presidential election in Washington (state), 1984"/>
+            <p ns="0" title="United States presidential election in Washington (state), 1988"/>
+            <p ns="0" title="United States Navy"/>
+            <p ns="0" title="United States presidential election in Washington (state), 1920"/>
+        </search>
+    </query>
+</api>

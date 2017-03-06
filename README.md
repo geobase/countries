@@ -27,7 +27,13 @@ Here is a list of information available for countries:
  * __Area__ Area in square KM
  * __Capital__
  * __Coordinates__ Latitude and Longitude for center as well as North, East, South and West coorinates of bounding box
+ * __Polygon__ Shape of the country
  * __Time Zone__
+ * __Regions__
+
+Here is a list of information available for regions:
+
+
 
 <a name="installation"></a>
 ## Installation

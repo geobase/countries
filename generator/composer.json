@@ -1,0 +1,22 @@
+{
+  "require-dev": {
+    "phpunit/phpunit": "~4",
+    "guzzlehttp/guzzle": "~5.0",
+    "willdurand/geocoder": "~3.2",
+    "symfony/console": "~2.7",
+    "psr/log": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Smart\\Geo\\Generator\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Smart\\Geo\\Generator\\Tests\\": [
+        "tests/Generator/Tests",
+        "tests/Generator/Tests/_includes"
+      ]
+    }
+  }
+}
