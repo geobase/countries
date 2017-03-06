@@ -16,6 +16,9 @@ compass_app_log.txt
 /composer.phar
 /composer.lock
 /vendor/
+/generator/vendor/
+/generator/composer.lock
+/generator/phpunit.xml
 /bower_components/
 /node_modules/
 /npm-debug.log
