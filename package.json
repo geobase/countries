@@ -1,0 +1,20 @@
+{
+  "name": "@geobase/countries",
+  "version": "1.0.0",
+  "description": "Country data in JSON",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geobase/countries.git"
+  },
+  "keywords": [
+    "countries"
+  ],
+  "author": "Gabriel Bull",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geobase/countries/issues"
+  },
+  "homepage": "https://github.com/geobase/countries#readme"
+}

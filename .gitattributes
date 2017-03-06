@@ -1,1 +1,8 @@
 *.php linguist-language=JSON
+
+/generator export-ignore
+/.gitattributes export-ignore
+/.gitignore export-ignore
+/.npmignore export-ignore
+/logo.png export-ignore
+/package.json export-ignore

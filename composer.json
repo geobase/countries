@@ -1,0 +1,17 @@
+{
+  "name": "geobase/countries",
+  "type": "library",
+  "version": "1.0.0",
+  "description": "Country data in JSON",
+  "homepage": "https://github.com/geobase/countries",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gabriel Bull",
+      "email": "me@gabrielbull.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0"
+  }
+}
