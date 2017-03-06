@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const gulpSequence = require('gulp-sequence')
 const jeditor = require("gulp-json-editor");
 const prompt = require("gulp-prompt");
+const git = require('gulp-git');
 const packageInfo = require('../../package.json');
 
 const nextVersion = (currentVersion) => {
