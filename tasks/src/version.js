@@ -11,7 +11,7 @@ const nextVersion = (currentVersion) => {
 
 let version;
 
-gulp.task('update:get-version', () =>
+gulp.task('version:get-version', () =>
     gulp.src('../package.json')
         .pipe(prompt.prompt({
             type: 'input',
@@ -20,7 +20,7 @@ gulp.task('update:get-version', () =>
             default: nextVersion(packageInfo.version)
         }, (res) => version = res.task)));
 
-gulp.task('update:package.json', () =>
+gulp.task('version:package.json', () =>
     gulp.src('../package.json')
         .pipe(jeditor(function(json) {
             json.version = version;
@@ -28,7 +28,7 @@ gulp.task('update:package.json', () =>
         }))
         .pipe(gulp.dest('../')));
 
-gulp.task('update:composer.json', () =>
+gulp.task('version:composer.json', () =>
     gulp.src('../composer.json')
         .pipe(jeditor(function(json) {
             json.version = version;
@@ -36,4 +36,9 @@ gulp.task('update:composer.json', () =>
         }))
         .pipe(gulp.dest('../')));
 
-gulp.task('update', gulpSequence('update:get-version', 'update:package.json', 'update:composer.json'));
+gulp.task('git:tag', () =>
+    git.tag(version, '', function (err) {
+        if (err) throw err;
+    }));
+
+gulp.task('version', gulpSequence('version:get-version', 'version:package.json', 'version:composer.json', 'git:tag'));
