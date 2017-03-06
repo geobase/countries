@@ -7,5 +7,5 @@
 /.npmignore export-ignore
 /logo.png export-ignore
 /package.json export-ignore
-/build
-/tasks
+/build export-ignore
+/tasks export-ignore
