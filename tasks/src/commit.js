@@ -15,7 +15,7 @@ gulp.task('git:message', () =>
 
 gulp.task('git:add', function(){
     return gulp.src('..')
-        .pipe(git.add());
+        .pipe(git.add({ args: '--all' }));
 });
 
 gulp.task('git:commit', function(){

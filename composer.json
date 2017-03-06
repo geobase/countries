@@ -1,7 +1,7 @@
 {
   "name": "geobase/countries-data",
   "type": "library",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Country data in JSON",
   "homepage": "https://github.com/geobase/countries",
   "license": "MIT",

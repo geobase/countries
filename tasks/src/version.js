@@ -37,9 +37,9 @@ gulp.task('version:composer.json', () =>
         }))
         .pipe(gulp.dest('../')));
 
-gulp.task('git:tag', () =>
+gulp.task('tag', () =>
     git.tag(version, '', function (err) {
         if (err) throw err;
     }));
 
-gulp.task('version', gulpSequence('version:get-version', 'version:package.json', 'version:composer.json', 'git:tag'));
+gulp.task('version', gulpSequence('version:get-version', 'version:package.json', 'version:composer.json'));
