@@ -33,7 +33,12 @@ Here is a list of information available for countries:
 
 Here is a list of information available for regions:
 
-
+ * __Names__ Country name in multiple languages, currently only English, French and German
+ * __Two letter code__ Two-letter region codes (eg. CA)
+ * __Four letter code__ Four-letter region codes (eg. US-CA)
+ * __Type__ Region type (eg. Province, State, Territory, District)
+ * __Time Zone__
+ * __Coordinates__ Latitude and Longitude for center as well as North, East, South and West coorinates of bounding box
 
 <a name="installation"></a>
 ## Installation
