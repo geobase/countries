@@ -3,3 +3,6 @@
 /.gitignore
 /composer.json
 /logo.png
+/src
+/build
+/tasks

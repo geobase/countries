@@ -1,7 +1,7 @@
 {
   "name": "geobase/countries-data",
   "type": "library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Country data in JSON",
   "homepage": "https://github.com/geobase/countries",
   "license": "MIT",
@@ -13,5 +13,10 @@
   ],
   "require": {
     "php": ">=5.6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "GeoBase\\CountriesData\\": "src"
+    }
   }
 }

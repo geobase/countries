@@ -1,4 +1,5 @@
 *.php linguist-language=JSON
+*.js linguist-language=JSON
 
 /generator export-ignore
 /.gitattributes export-ignore
@@ -6,3 +7,5 @@
 /.npmignore export-ignore
 /logo.png export-ignore
 /package.json export-ignore
+/build
+/tasks
