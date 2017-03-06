@@ -4,6 +4,9 @@
   "dependencies": {
     "del": "^2.2.2",
     "gulp": "^3.9.1",
+    "gulp-git": "^2.0.1",
+    "gulp-json-editor": "^2.2.1",
+    "gulp-prompt": "^0.2.0",
     "gulp-sequence": "^0.4.6",
     "gulp-zip": "^4.0.0"
   }

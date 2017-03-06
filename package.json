@@ -1,9 +1,8 @@
 {
   "name": "@geobase/countries-data",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Country data in JSON",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/geobase/countries.git"
